@@ -1,5 +1,5 @@
 {
-    "name": "innobraingmbh/laravel-libpostal",
+    "name": "innobrain/laravel-libpostal",
     "description": "This is my package laravel-libpostal",
     "keywords": [
         "InnoBrain GmbH",
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Innobrain\\Libpostal\\": "src/",
+            "Innobrain\\Libpostal\\": "src/"
         }
     },
     "autoload-dev": {
