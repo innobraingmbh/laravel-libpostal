@@ -20,7 +20,7 @@ class Libpostal
     {
         $this->url = Config::get('libpostal.url');
 
-        if (empty($this->url)) {
+        if (blank($this->url)) {
             throw new InvalidConfigException('Libpostal URL is not set');
         }
     }
